@@ -1,0 +1,47 @@
+
+body { background-image: url("img/sliders/administrador.jpg") }
+
+h1, table { text-align: center; }
+
+table {border-collapse: collapse;  width: 70%; margin: 0 auto 5rem;}
+
+th, td { padding: 1.5rem; font-size: 1.4rem; }
+
+tr {background: #ddd; }
+
+tr, td { transition: .4s ease-in; } 
+
+tr:first-child {background: #1d3238; 
+}
+
+tr:nth-child(even) { background: #999; }
+
+td:empty {background: hsla(50, 25%, 60%, 0.7); }
+
+tr:hover:not(#firstrow), tr:hover td:empty {background: #9ee2a0; pointer-events: visible;}
+tr:hover:not(#firstrow) { transform: scale(1.01); font-weight: 700; box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);}
+
+
+    
+ 
+@media (min-width:768px) {
+  
+    .container>.navbar-header {
+        margin-right: 0%;
+        margin-left: 20%;
+    }
+    
+    h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.16em;
+}
+
+
+
+@media (min-width:1200px) {
+    .container {
+        width: 100%
+    }
+}

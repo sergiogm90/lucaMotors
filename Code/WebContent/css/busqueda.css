@@ -1,0 +1,141 @@
+body{
+	background-color: #ddeaee;
+}
+
+#nav{
+	height: 100px;
+	background-color: #1d3238!important;
+    border-color: #1d3238!important;
+}
+
+#contenedor{
+	margin-top: 50px;
+	padding-top: 15px;
+	background-color: #fff;
+}
+
+#usuarioLogin{
+	float:right;
+}
+
+.lucaticMotorsNombre{
+		margin: 20px;
+	color:#ffffff!important;		
+}
+
+.lucaticMotorsNombre:hover{
+	margin: 20px;
+	color:#808080!important;
+}
+
+#nomberUsuario{
+		margin:20px;		
+}
+
+.lucaNombre{
+
+	color: #ffffff!important;
+
+	margin: 20px 0px 20px 440px!important;
+}
+footer.footer{
+	padding: 20px;
+}
+
+h1.footer{
+	font-size: 40px;
+}
+h6.footer{
+	font-size: 20px;
+}
+
+
+
+
+
+img.imagenLogo{
+	float: left;
+	margin:2px;
+	margin-right: 20px;
+}
+.imagenDesloguear{
+	margin-top:20px!important;	
+	font-size: 20px;
+}
+#footer{
+	height: 150px;
+	background-color: #1d3238!important;
+    border-color: #1d3238!important;
+    	margin-top: 25px!important;
+    
+}
+.nombreFooter{
+	font-size: 33px!important;
+	margin: 37px!important;
+	color:#ffffff!important;
+	height: 70px!important;
+}
+.nombreNosotrosFooter{
+	paddin:20px;
+	color: #ffffff!important;
+	margin-top:10px;
+	font-family: 'Graduate', cursive;
+	float:right;
+}
+
+.categorias{
+	border-color: #3d6976;
+	border-type: solid;
+	background-color: #cde0e5;
+}
+
+img.logoMotos{
+	margin-right: 20px;
+}
+
+*{
+	border-color: #1d3238!important;
+}
+
+a.list-group-item, button.list-group-item {
+    color: #555;
+    
+}
+
+.btn-light, .btn-transparent{
+	border-color: white!important;
+}
+
+a{
+	color:#447888;
+}
+.busc{
+	background-color: #1d3238!important;
+	color: white;
+}
+
+.busc:hover{
+	background-color: #1d3238!important;
+	color: white;
+}
+
+.card{
+	min-height:200px;
+}
+
+
+.list-group:active{
+	background: #1d3238;
+	
+	}
+.list-group a:hover{
+	background: #1d3238;
+	color:white;	
+}
+
+
+	
+.fondoListaMotos{
+	background: #1d3238;
+	color:white!important;
+}
